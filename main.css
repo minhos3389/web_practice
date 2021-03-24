@@ -1,7 +1,62 @@
-h1 {
-    color: hotpink;
+.main-title {
+    font-size: 60px;
+    color: 	#FF46C5;
+    margin-left: 50ox;
+    margin-right: 50ox;
+    padding: 30px 30px;
+    background-color: whitesmoke;
 }
 
-h2 {
-    color: hotpink;
+aside {
+    width: 25%;
+    font-size: 26px;
+    float: left;
+    box-shadow: inset 20px 0 5px -5px hotpink;
+    color: #29627e;
+}
+
+
+.song-name {
+    font-size: 50px;
+    color: 	#FF46C5;
+    margin-left: 50ox;
+    margin-right: 50ox;
+    padding: 30px 30px;
+    background-color: whitesmoke;
+}
+
+.newstitle {
+    font-size: 50px;
+    color: #FF50CF;
+    background-color: #FFC8FF;
+    font-style: oblique;
+    margin-left: 50ox;
+    margin-right: 50ox;
+    padding: 30px 30px;
+}
+.brave-news {
+    margin: 5px;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+.article-date{
+    font-size: 20px;
+}
+.day-news {
+    background: right/contain content-box border-box no-repeat whitesmoke;
+}
+.day-news > h2,
+.day-news > p{
+    margin: .2rem;
+    font: 1rem 'Fira Sans', sans-serif;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
 }

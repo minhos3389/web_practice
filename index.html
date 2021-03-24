@@ -3,18 +3,61 @@
 <head>
     <title>Bravegirls_info</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./main.css">
+    <base href="./">
+    <link rel="stylesheet" href="main.css">
+    <style type="text/css">
+        /* 폰트글꼴 */
+        @font-face {
+        font-family: 'Nanum Brush Script';
+        src:url("NanumBrushScript-Regular.ttf");
+        }
+        h1, h2, p, li{font-family: 'Nanum Brush Script', cursive;}
+    </style>
 </head>
 <body>
-    <h1>브레이브걸스</h1>
-    <ol>
-        <li><a href="./rollin.html" title="롤린뮤비">롤린(Rollin)</a></li>
-        <li><a href="./weride.html" title="운전만해뮤비">운전만해(We Ride)</a></li>
-        <li><a href="./highheel.html" title="하이힐뮤비">하이힐(High Heel)</a></li>
-    </ol>
-    <image width="50%" src="./bravegirls.png" alt="브레이브걸스"/>
+    <header>
+        <h1 class="main-title">브레이브걸스 팬페이지</h1>
+        <image style="
+            border: 4px solid pink;
+            border-radius:10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            width: 50%"
+             src="bravegirls.jpg" alt="브레이브걸스"/>
+        <a href="bravegirls.jpg" download></a>
+        <aside>
+            <ol>
+                <li><a href="rollin.html" title="롤린뮤비" rel="롤린 뮤비로 연결">롤린(Rollin)</a></li>
+                <li><a href="weride.html" title="운전만해뮤비" rel="운전만해 뮤비로 연결">운전만해(We Ride)</a></li>
+                <li><a href="highheel.html" title="하이힐뮤비" rel="하이힐 뮤비로 연결">하이힐(High Heel)</a></li>
+            </ol>
+        </aside>
+    </header>
+
     <p>
         <strong>브레이브걸스</strong>는 대한민국의 <u>4인조 걸그룹</u>입니다.
     </p>
+    <h2 class="newstitle">Bravegirls news</h2>
+    <article class="brave-news">
+        <article class="day-news">
+            <header>
+                <h2>브레이브걸스 역주행 </h2>
+                <P class="article-date">Posted on Tuesday, <time datetime="20210324">24 March 2021</time>by mitku</P>
+            </header>
+            <p>브레이브걸스는 유튜브 비디터 채널에서 올린 <a href="https://www.youtube.com/watch?v=cfHWIqJkEf4">롤린 댓글모음 동영상</a> 에 의해 음원차트를 역주행 하게 되었다.</p>
+        </article>
+        <article class="day-news">
+            <header>
+                <h2>브레이브걸스 음원 1위 </h2>
+                <P class=article-date>Posted on Friday, <time datetime="20210312">12 March 2021</time>by mitku</P>
+            </header>
+            <p>3월 12일, 브레이브걸스는 데뷔 후 대한민국의 모든 음원차트에서 첫 1위를 달성했다.</p>
+        </article>
+    </article>
+
+    <footer>
+        <p>© 2021 mitku</p>
+    </footer>
 </body>
 </html>
