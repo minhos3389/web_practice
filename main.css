@@ -15,7 +15,9 @@ aside {
     color: #29627e;
 }
 
-
+li {
+    font-size: 26px;
+}
 .song-name {
     font-size: 50px;
     color: 	#FF46C5;
